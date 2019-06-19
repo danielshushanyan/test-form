@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gulp Starter Kit</title>
+    <link rel="shortcut icon" href="./img/icons/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- build:css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <main class="login">
+      <form class="login__form login-form" action="">
+        <img class="login-form__logo" src="./img/logos/PB_logo.png" alt="playboy logo">
+        <label class="login-form__number number" for="number">
+          <input class="number__input input" id="number" name="number" type="text" placeholder="Номер телефона">
+        </label>
+        <label class="login-form__password password" for="password">
+          <input class="password__input input" id="password" name="password" type="password" placeholder="Пароль">
+        </label>
+        <div class="login-form__wrapper">
+          <label class="login-form__switch switch" for="checkbox">
+            <input type="checkbox" class="switch__input" id="checkbox" />
+            <div class="switch__slider"></div>
+            <div class="switch__label">Запомнить</div>
+          </label>
+          <a class="login-form__link" href="#">Забыл пароль</a>
+        </div>
+        <button class="login-form__button" type="submit">ВОЙТИ</button>
+      </form>
+    </main>
+    <!-- build:js -->
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <!-- endbuild  -->
+  </body>
+</html>
